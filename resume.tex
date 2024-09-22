@@ -1,0 +1,211 @@
+%-------------------------
+% Resume in Latex
+% Author : Andrew Yurovchak
+% Based off of: https://github.com/jakegut/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Andrew Yurovchak} \\ \vspace{3pt}
+    \small 603-321-9446 $|$ \href{mailto:andy@yurovchak.net}{\underline{andy@yurovchak.net}} $|$ \small{Hoboken, NJ} $|$
+    \href{https://portfolio.super-youtube.com}{\underline{portfolio.super-youtube.com}} \\ \vspace{-3pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stevens Institute of Technology}{Hoboken, NJ}
+      {Bachelor of Science in Computer Science}{Expected May 2026}
+    \resumeSubItem{Honors: Dean's List (Fall 2022, Spring 2023, Spring 2024), NCAA All-Academic Team 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineering Intern}{May 2024 -- August 2024}
+      {Jacobs Technology, Aviation Suite}{Hudson, NH}
+      \resumeItemListStart
+        \resumeItem{Led development of error handling features for an internal optimization tool written with .NET, streamlining load testing and improving test efficiency}
+        \resumeItem{Implemented input screening, preventing optimization on invalid parameters, saving testers hours for every error caught}
+        \resumeItem{Revamped the progress and results screens, adding more descriptive progress messages, and an error screen that explained the cause of the error, immensely reducing time spent tracing errors}
+        \resumeItem{Developed logging for capacity limits in the main product, while maintaining 100\% code coverage and compliance with strict data management requirements}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------CAMPUS INVOLVEMENT-----------
+\section{Campus Involvement}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading{Head of Development and Risk}{September 2024 -- Present}{Stevens Student Managed Investment Fund}{\empty}
+    \resumeItemListStart
+      \resumeItem{Leading a team of 5 developers, facilitating communication with fund management to align development goals with overall strategy}
+      \resumeItem{Built a responsive React.js frontend and Flask API for a portfolio dashboard leveraging yahoo finance’s web API, leading to more informed decision-making for the fund}
+      \resumeItem{Designed and deployed a containerized PostgreSQL database to store price data and portfolio activity, providing a consolidated source for portfolio information and reducing time spent searching for data}
+      \resumeItem{Heading team recruitment by reviewing resumes, creating coding challenges, and conducting interviews, ensuring continuity in the team’s operations in future semesters}
+    \resumeItemListEnd
+    \resumeSubheading{Stevens NCAA Division III Fencing Team}{September 2022 -- Present}{Starting Team Member}{\empty}
+    \resumeItemListStart
+      \resumeItem{Committing approximately 30 hours per week to practice, conditioning, and travel to ~12 meets per season}
+      \resumeItem{Strengthened leadership and coaching skills under a high-pressure, stressful environment}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading{\textbf{Sticky Notes Application} $|$ \href{https://github.com/andrewyur/md-sticky}{\underline{https://github.com/andrewyur/md-sticky}}}{September 2024}
+      \resumeItemListStart
+        \resumeItem{Developed a sticky notes app to fit my personal workflow after being dissatisfied with existing options, creating a tool which I now use daily}
+        \resumeItem{Added a text editor with markdown support, a color selection menu, and keyboard shortcuts for window management}
+      \resumeItemListEnd
+      \resumeProjectHeading{\textbf{Collaborative Text Editor} $|$ \href{https://collab-notepad.super-youtube.com}{\underline{https://collab-notepad.super-youtube.com}}}{
+        June 2024 -- August 2024}
+      \resumeItemListStart
+        \resumeItem{Built a collaborative text editor using my own Operational Transformation algorithm, ensuring both responsiveness and accuracy on slow connections}
+        \resumeItem{Designed an Elixir backend with WebSocket API to enable communication between the server and web clients, using Erlang’s OTP library to improve fault tolerance}
+      \resumeItemListEnd
+      \resumeProjectHeading{\textbf{QR Image Encoder} $|$ \href{https://crates.io/crates/qart
+      }{\underline{https://crates.io/crates/qart
+      }}}{June 2024}
+      \resumeItemListStart
+        \resumeItem{Published a Rust-based QR image encoder that surpassed 350 downloads in 10 days, utilizing multithreading to achieve 100x performance improvement over comparable tools}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Typescript \& Javascript, Python, C, C\#, Rust, Elixir, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Svelte, Flask, Express, .NET Framework/Core} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, VS Code, Visual Studio, Azure}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
