@@ -30,7 +30,7 @@
 
 % serif
 % \usepackage{CormorantGaramond}
-\usepackage{charter}
+% \usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -51,6 +51,8 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
+
+\setlength{\parskip}{4.5pt}
 
 % Sections formatting
 \titleformat{\section}{
@@ -123,9 +125,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Stevens Institute of Technology}{September 2022 -- May 2026}
-      {Bachelor of Science in Computer Science, GPA: 3.7}{Hoboken, NJ}
+      {Bachelor of Science in Computer Science, GPA: 3.7/4.0}{Hoboken, NJ}
     \resumeSubItem{\textbf{Honors}: Dean's List (Fall 2022, Spring 2023, Spring 2024), NCAA All-Academic Team 2023}
     \resumeSubItem{\textbf{Coursework}: DevOps Methodologies, Database Management, Data Structures \& Algorithms, Concurrent Programming}
+    \vspace{-10pt}
   \resumeSubHeadingListEnd
 
 
@@ -133,9 +136,9 @@
 \section{Skills}
  \resumeSubHeadingListStart
     \small{\item{
-     \textbf{Languages}{: Typescript \& Javascript, Python, Java, C, C\#, Rust, Elixir, HTML/CSS, SQL} \\
+     \textbf{Languages}{: Typescript \& Javascript, Python, C\#, Rust, Nix, Elixir, HTML \& CSS, SQL} \\
      \textbf{Frameworks}{: React, Svelte, Flask, .NET Core/Framework, NextJS} \\
-     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, Kubernetes, GitHub Actions, Linux/Unix}
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, Kubernetes, GitHub Actions, Linux/Unix, PostgreSQL}
     }\vspace{-5pt}}
  \resumeSubHeadingListEnd
 
@@ -147,10 +150,10 @@
       {Software Engineering Intern}{May 2024 -- August 2024}
       {Jacobs Technology, Aviation Suite}{Hudson, NH}
       \resumeItemListStart
-        \resumeItem{Built logging for capacity limits in NavDBTool, the core platform for navigational data packing, maintaining 100\% code coverage and ensuring compliance with strict data management requirements}
-        \resumeItem{For a .NET-based internal optimization tool, led development of error handling features that improved usability and accelerated load testing workflows}
-        \resumeItem{Implemented input screening on the optimization tool, preventing operations on invalid parameters, saving testers hours for each error prevented}
-        \resumeItem{Revamped the tool's progress and results screens with detailed progress messages and error explanations, drastically reducing time spent tracing errors}
+        \resumeItem{Expanded logging capacities for the main product, maintaining \textbf{100\% code coverage} and ensuring compliance with \textbf{strict data management requirements}}
+        \resumeItem{Led development of error handling features for a \textbf{.NET}-based optimization tool, improving usability}
+        \resumeItem{Implemented input screening that prevented operations on invalid parameters, \textbf{saving hours} for each error caught}
+        \resumeItem{Revamped the tool's progress and results screens, drastically \textbf{reducing time spent} tracing errors}
       \resumeItemListEnd
     \resumeSubHeadingListEnd
       
@@ -170,15 +173,15 @@
 
     \resumeSubheading{Head of Development and Risk}{January 2024 -- Present}{Stevens Student Managed Investment Fund}{\empty}
     \resumeItemListStart
-      \resumeItem{Leading a team of 5 developers, facilitating communication with fund management to align development goals with overall strategy}
-      \resumeItem{Created a responsive React.js \& NextJS frontend and Flask API for a portfolio dashboard leveraging yahoo finance’s web API, leading to more informed decision-making for the fund}
-      \resumeItem{Designed and deployed a containerized PostgreSQL database to store price data and portfolio activity, providing a consolidated source for portfolio information and reducing time spent searching for data}
-      \resumeItem{Heading team recruitment by reviewing resumes, creating coding challenges, and conducting interviews, ensuring continuity in the team’s operations in future semesters}
+      \resumeItem{\textbf{Managing a team of 5 developers}, communicating with fund management to set development goals}
+      \resumeItem{Created a \textbf{React.js} \& \textbf{NextJS} frontend and \textbf{Python Flask} API for a portfolio dashboard and metrics display}
+      \resumeItem{Designed and deployed a \textbf{containerized PostgreSQL} database to store price data and portfolio activity}
+      \resumeItem{Leading recruitment efforts for the team, creating a coding challenge and conducting interviews}
     \resumeItemListEnd
     \resumeSubheading{Starting Team Member}{September 2022 -- Present}{Stevens NCAA Division III Fencing Team}{\empty}
     \resumeItemListStart
-      \resumeItem{Committing approximately 30 hours per week to practice, conditioning, and travel to ~12 meets per season}
-      \resumeItem{Strengthened leadership and coaching skills under a high-pressure, stressful environment}
+      \resumeItem{Committing approximately 30 hours per week to practice, conditioning, and travel to 12 meets per season}
+      \resumeItem{Strengthened \textbf{leadership} and \textbf{coaching} skills under a high-pressure, stressful environment}
     \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -187,20 +190,20 @@
     \resumeSubHeadingListStart
       \resumeProjectHeading{\textbf{Sticky Notes Application} $|$ \href{https://github.com/andrewyur/md-sticky}{\underline{\smash{https://github.com/andrewyur/md-sticky}}}}{September 2024}
       \resumeItemListStart
-        \resumeItem{Developed a sticky notes app to fit my personal workflow after being dissatisfied with existing options, creating a tool which I now use daily}
-        \resumeItem{Added a text editor with markdown support, a color selection menu, and keyboard shortcuts for window management}
+        \resumeItem{Developed a sticky notes app in \textbf{Rust} \& \textbf{Svelte} with \textbf{Tauri} to fit my personal workflow}
+        \resumeItem{Added a text editor with markdown support, a color selection menu, and window management shortcuts}
       \resumeItemListEnd
       \resumeProjectHeading{\textbf{Collaborative Text Editor} $|$ \href{https://collab-notepad.baetylboy.biz}{\underline{\smash{https://collab-notepad.baetylboy.biz}}}}{
         June 2024 -- August 2024}
       \resumeItemListStart
-        \resumeItem{Built a collaborative text editor using my own Operational Transformation algorithm, ensuring both responsiveness and accuracy on slow connections}
-        \resumeItem{Designed an Elixir backend with WebSocket API to enable communication between the server and web clients, using Erlang’s OTP library to improve fault tolerance}
+        \resumeItem{Built a collaborative text editor using my own \textbf{Operational Transformation} algorithm, ensuring both responsiveness and accuracy on slow connections}
+        \resumeItem{Designed an \textbf{Elixir} backend with \textbf{WebSocket} API, using \textbf{Erlang’s OTP} library to improve \textbf{fault tolerance}}
       \resumeItemListEnd
       \resumeProjectHeading{\textbf{QR Image Encoder} $|$ \href{https://crates.io/crates/qart
       }{\underline{\smash{https://crates.io/crates/qart}
       }}}{June 2024}
       \resumeItemListStart
-        \resumeItem{Published a Rust-based QR image encoder that surpassed 350 downloads in 10 days, utilizing multithreading to achieve 100x performance improvement over comparable tools}
+        \resumeItem{Published a \textbf{Rust}-based QR image encoder nearing \textbf{1000 downloads} on crates.io, utilizing multithreading to achieve \textbf{100x} performance improvement over comparable tools}
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
