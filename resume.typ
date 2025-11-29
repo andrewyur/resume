@@ -15,7 +15,7 @@
   phone: phone,
   personal-site: personal-site,
   accent-color: "#26428b",
-  font: "Lucida Grande",
+  font: "Open Sans",
   font-size: 9.5pt,
   paper: "us-letter",
   author-position: left,
@@ -31,7 +31,7 @@
   degree: "Bachelor's of Science in Computer Science",
 )
 - Cumulative GPA: *3.74\/4.0* | Dean's List (5 Semesters), Presidential Scholarship, Edwin A. Stevens Scholarship
-- Relevant Coursework: Data Structures & Algorithms, Systems Programming, Operating Systems, Database Management, Web Development, Concurrent Programming, 
+- Relevant Coursework: Data Structures & Algorithms, Systems Programming, Operating Systems, Database Management, Web Development, Concurrent Programming
 
 == Work Experience
 
