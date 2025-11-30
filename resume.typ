@@ -31,7 +31,7 @@
   degree: "Bachelor's of Science in Computer Science",
 )
 - Cumulative GPA: *3.74\/4.0* | Dean's List (5 Semesters), Presidential Scholarship, Edwin A. Stevens Scholarship
-- Relevant Coursework: Data Structures & Algorithms, Systems Programming, Operating Systems, Database Management, Web Development, Concurrent Programming
+- Relevant Coursework: Data Structures & Algorithms, Systems Programming, Operating Systems, Database Management, Web Development, Concurrent Programming, TCP/IP Networking, Contributing to Open Source Software
 
 == Work Experience
 
